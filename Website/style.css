@@ -4,6 +4,7 @@ body{
     padding: 0;
     background: white;
     margin: 0 auto;
+    max-width: 40em;
     
 }
 
@@ -110,9 +111,7 @@ h1, p, h2{
 
   }
 
-  .landingPage-container>main>picture>img{
-    width: 100vw;
-  }
+
 
   .landingPage-container>main>section{
     display: grid;
@@ -123,6 +122,7 @@ h1, p, h2{
     justify-items: center;
     margin-top: 150px;
     margin-left: 50px;
+
 
 
   }
@@ -193,6 +193,7 @@ h1, p, h2{
   .orderHalfGallon-Container{
     display: grid;
     row-gap: 30px;
+    margin-left: 25px;
   }
 
   .orderHalfGallon-Container>p{
@@ -219,6 +220,7 @@ h1, p, h2{
   @media screen and (min-width: 700px) {
     body{
       background-color: white;
+      max-width: none;
     }
 
   .landingPage-container{
@@ -231,6 +233,17 @@ h1, p, h2{
     justify-content: center;
     align-items: center;
   }
+    
+  }
+
+  @media screen and (min-width: 1200px) {
+    body{
+      background-color: white;
+      max-width: 60em;
+    }
+    .landingPage-container>main>picture>img{
+      height: 105%;
+    }
     
   }
 
