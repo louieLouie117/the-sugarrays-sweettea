@@ -81,7 +81,6 @@ h1, p, h2{
 
   .landingPage-container{
     display: grid;
-    max-width: 25em;
   }
 
   .landingPage-container>header{
@@ -89,6 +88,11 @@ h1, p, h2{
     justify-items: center;
     row-gap: 20px;
 
+  }
+
+  .landingPage-container>header>aside{
+    display: grid;
+    justify-items: center;
   }
 
   .landingPage-container>header>img{
