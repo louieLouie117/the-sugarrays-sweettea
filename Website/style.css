@@ -74,6 +74,7 @@ h1, p, h2{
   a{
     padding: 0;
     margin: 0;
+    text-decoration: none;
   
   }
 
@@ -210,7 +211,52 @@ h1, p, h2{
   }
 
 
-  .orderHalfGallon-Container>a>button{
+
+
+  .landingPage-container>footer{
+    display: grid;
+    row-gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    font: 1em sans-serif;
+  }
+
+  .landingPage-container>footer>section{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+
+
+  .landingPage-container>footer>section>picture{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+  }
+
+  .landingPage-container>footer>section>a{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 100px;
+  }
+
+  .landingPage-container>footer>aside{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .landingPage-container>footer>aside>a{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+
+
+
+
+  .MainBTN{
     font: 1em sans-serif;
     background-color: #E08634;
     color: white;
@@ -223,11 +269,8 @@ h1, p, h2{
 
   }
 
-  .landingPage-container>footer{
-    display: grid;
-    justify-content: center;
 
-  }
+
 
   @media screen and (min-width: 700px) {
     body{
