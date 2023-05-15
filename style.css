@@ -181,13 +181,15 @@ h1, p, h2{
  
 
   .drinkItem-footer{
-    grid-row: 3/4;
-    grid-column: 1/2;
+    background-color: white;
     display: grid;
-    row-gap: 5px;
-    justify-items: center;
-    align-content: center;
-    margin-top: -120px;
+    /* grid-row: 3/4; */
+    /* grid-column: 1/2; */
+    /* row-gap: 5px; */
+    /* justify-items: center; */
+    /* align-content: center; */
+    margin-top: -7px;
+    padding: 10px 0 10px 0;
   
 
   }
