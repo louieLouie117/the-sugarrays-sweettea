@@ -132,7 +132,6 @@ h1, p, h2{
     align-content: flex-start;
     justify-items: center;
     margin-top: 150px;
-    margin-left: 50px;
 
 
 
@@ -150,7 +149,10 @@ h1, p, h2{
 
   .drinkItem-container{
     display: grid;
-    justify-content: center;
+    min-width: 270px;
+    border-radius: 13px;
+
+
   }
 
   
@@ -170,11 +172,12 @@ h1, p, h2{
   .drinkItem-container>main{
     grid-row: 2/4;
     grid-column: 1/2;
+    border-radius: 13px;
 
   }
 
   .drinkItem-container>main>img{
-    width: 200px;
+    width: 270px;
 
   }
 
@@ -189,9 +192,15 @@ h1, p, h2{
     /* justify-items: center; */
     /* align-content: center; */
     margin-top: -7px;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 20px 0;
+    border-radius: 0 0 13px 13px ;
   
 
+  }
+
+  .drinkItem-footer>div{
+    display: grid;
+    row-gap: 17px;
   }
 
 
@@ -206,7 +215,6 @@ h1, p, h2{
   .orderHalfGallon-Container{
     display: grid;
     row-gap: 30px;
-    margin-left: 25px;
   }
 
   .orderHalfGallon-Container>p{
@@ -270,7 +278,7 @@ h1, p, h2{
     width: 200px;
     border-radius: 40px;
     border: solid 1px white;
-    box-shadow: 0 0 5px #E08634;  
+    box-shadow: 0 0 7px #e087348a;  
     cursor: pointer;
 
   }
