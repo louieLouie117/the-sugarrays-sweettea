@@ -50,6 +50,7 @@ h1, p, h2{
     display: grid;
     row-gap: 3px;
     justify-content: center;
+    justify-items: center;
   }
   .sub-container>button{
     height: 40px;
@@ -317,3 +318,19 @@ h1, p, h2{
   }
 
 
+
+
+.activateWebsite-container{
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+}
+
+.activateWebsite-container>header{
+  display: grid;
+  height: 200px;
+}
+
+.activateWebsite-container>header>img{
+  height: 120px; 
+}
